@@ -1,8 +1,7 @@
 ## TODO
-- SEO
+- SEO & sitemap
 - Title pages
-- Thumbnails
-- Video youtube
 - Maps
 - Clean links
 - Clean code
+- Fixed menu

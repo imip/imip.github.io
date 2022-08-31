@@ -338,6 +338,15 @@
         padding: 40px 0;
     }
 
+    .duration-items {
+        margin-left: 0px!imporant;
+    }
+
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 60.25%;
+    }
+
     .hero-text {
         text-align: center;
     }
