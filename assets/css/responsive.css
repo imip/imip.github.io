@@ -44,11 +44,43 @@
         padding: 7px 10px;
     }
 }
-
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pb-80 {
+        padding-bottom: 35px;
+    }
+
+    .abt-section .abt-text {
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+    }
+
+    .section-title {
+        margin-bottom: 25px;
+    }
+
+    .hero-text-tablecell .mobile-show .subtitle {
+        margin-top: 70px;
+    }
+
+    .pt-80 {
+        padding-top: 35px;
+    }
+
+    .mb-80 {
+        margin-bottom: 35px;
+    }
+
+    .mt-80 {
+        margin-top: 35px;
+    }
+
     .hero-text h1 {
         font-size: 40px;
+    }
+
+    #images img {
+        margin-top: 10px;
     }
 
     .footer-box {
@@ -671,6 +703,14 @@
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .pb-80 {
+        padding-bottom: 35px;
+    }
+
+    .pt-80 {
+        padding-top: 35px;
+    }
+
     .hero-area div.hero-form {
         margin: 0 auto;
         right: auto;
@@ -679,8 +719,26 @@
         margin-left: -190px;
     }
 
+    .hero-text-tablecell .mobile-show .subtitle {
+        margin-top: 70px;
+    }
+
     .hero-btns {
         text-align: center;
+        display: flex;
+    }
+
+    .hero-btns > a {
+        width: 50%;
+        margin-top: 0 !important;
+    }
+
+    h1.main-title {
+        font-size: 68px !important;
+    }
+
+    .main-stars {
+        font-size: 20px !important;
     }
 
     .hero-btns a.bordered-btn {

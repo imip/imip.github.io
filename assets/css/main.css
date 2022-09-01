@@ -2166,6 +2166,8 @@ a.video-play-btn {
     font-size: 15px;
     line-height: 1.6;
     margin-bottom: 10px;
+    width: 100%;
+    text-align: justify;
 }
 
 .abt-text p.top-sub {
