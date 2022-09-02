@@ -723,9 +723,19 @@
         margin-top: 70px;
     }
 
+    .hero-text-tablecell .mobile-show {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        justify-items: center;
+        display: flex !important;
+        justify-content: center;
+    }
+
     .hero-btns {
         text-align: center;
         display: flex;
+        clear: both;
     }
 
     .hero-btns > a {
@@ -739,6 +749,7 @@
 
     .main-stars {
         font-size: 20px !important;
+        margin-top: 0px;
     }
 
     .hero-btns a.bordered-btn {
